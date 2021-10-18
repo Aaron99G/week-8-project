@@ -1,0 +1,85 @@
+body {
+    /* background: #855A5C; */
+    background-image: linear-gradient(to right, #855A5C, #E0C879);
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+    border-bottom: 2px solid orange;
+    width: max-content;
+}
+
+ol {
+    padding-left: 0px;
+}
+
+.crumb {
+    margin-right: 2em;
+    display: inline;
+    background-color: rgb(155, 20, 20);
+    border-radius: 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    color: orange;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+img {
+    max-width: 500px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow ', sans-serif;
+    font-size: medium;
+}
+
+.button {
+    width: 80px;
+    height: 60px;
+    background-color: #FDE74C;
+    border-radius: 100%;
+}
+
+.refferal-input {
+    display: inline;
+}
+
+#refferal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.site-img {
+    width: 400px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
