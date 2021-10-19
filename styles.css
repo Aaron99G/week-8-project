@@ -44,6 +44,7 @@ a:visited {
 
 img {
     max-width: 500px;
+    align-self: auto;
 }
 
 h1 {
@@ -55,11 +56,15 @@ p {
     font-size: medium;
 }
 
-.button {
-    width: 80px;
-    height: 60px;
-    background-color: #FDE74C;
-    border-radius: 100%;
+button {
+    background-color: rgb(155, 20, 20);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .refferal-input {
@@ -72,14 +77,49 @@ p {
     justify-content: space-around;
 }
 
-.site-img {
-    width: 400px;
-}
-
 ul {
     list-style-type: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li {
+    list-style-type: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+form {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 body {
     font-family: Verdana, sans-serif;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: rgb(151, 56, 56);
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: orange;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: rgb(185, 69, 69);
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: orange;
 }

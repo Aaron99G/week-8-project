@@ -1,8 +1,0 @@
-	The internet is simply put, a giant network, and a network is just some computers that are connected
-to each other.They can be connected by an ethernet cable or wirelessly. For the ones that are connected via cable,
-will be connected to a router, which in turn is connected to another routher so that it can be somwhat more 
-organized. The gian network that is the internet, once connected, is then used to accesse and send data from one
-computer to another.
-	When you click a link/hyperlink you will go to the website that is linked to that link. It will do so by
-having your browser get the url and make a get request to that website's server. Then the server will send you the
-webpages html so you can view it on your browser.
