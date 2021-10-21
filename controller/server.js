@@ -14,6 +14,17 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, '../home.html'));
 })
 
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, '../phul.html'));
+})
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, '../ppl.html'));
+})
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, '../uplow.html'));
+})
 
 const port = process.env.PORT || 4400;
 
