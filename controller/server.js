@@ -8,24 +8,26 @@ const rollbar = new Rollbar({
 
 })
 
+rollbar.log("Hello world!");
+
 const app = express();
 
-app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '../home.html'));
-})
-
-app.use('/styles', express.static(path.join(__dirname, '../styles.css')))
+app.use('/styles', express.static(path.join(__dirname, './public/styles.css')))
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '../phul.html'));
+    res.sendFile(path.join(__dirname, '/public/home.html'));
 })
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '../ppl.html'));
+    res.sendFile(path.join(__dirname, '/public/phul.html'));
 })
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '../uplow.html'));
+    res.sendFile(path.join(__dirname, '/public/ppl.html'));
+})
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, '/public/uplow.html'));
 })
 
 const port = process.env.PORT || 4400;
