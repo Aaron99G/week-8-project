@@ -19,15 +19,15 @@ app.get('/', function(req, res) {
 })
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '/public/phul.html'));
+    res.sendFile(path.join(__dirname, '../public/phul.html'));
 })
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '/public/ppl.html'));
+    res.sendFile(path.join(__dirname, '../public/ppl.html'));
 })
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '/public/uplow.html'));
+    res.sendFile(path.join(__dirname, '../public/uplow.html'));
 })
 
 const port = process.env.PORT || 4400;
