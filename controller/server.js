@@ -15,7 +15,7 @@ const app = express();
 app.use('/styles', express.static(path.join(__dirname, './public/styles.css')))
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, './public/home.html'));
+    res.sendFile(path.join(__dirname, '/public/home.html'));
 })
 
 app.get('/', function(req, res) {
